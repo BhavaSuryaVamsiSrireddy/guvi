@@ -12,4 +12,4 @@ for k in range(1,len(l)):
         else:
             m.remove(m[n])
             le = le - 1
-print(m)        
+print(' '.join(m))      
