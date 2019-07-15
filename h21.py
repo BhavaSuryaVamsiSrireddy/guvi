@@ -12,7 +12,6 @@ for i in m:
 for i in m:
 	for j in c:
 		i[j] = 0
-		break
 for i in m:
 	for j in range(len(i)):
 		i[j] = str(i[j])
