@@ -1,12 +1,8 @@
 n = int(input())
 l = list(map(int,input().split()))
 r = []
-for i in l:
+for i in range(1,len(l)+1):
 	m = i * n
 	if m in l:
-		r.append(str(i))
-if(len(r) > 0):
-	print(' '.join(r))
-else:
-	print(0)
-	
+		r.append(l[i-1])
+print(len(r))
