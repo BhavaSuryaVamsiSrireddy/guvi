@@ -4,12 +4,12 @@ u,v = map(int,input().split())
 ui = []
 vi = []
 il = []
-for i in l:
-	if i == u:
-		ui.append(l.index(i))
-for i in l:
-	if i == v:
-		vi.append(l.index(i))
+for i in range(len(l)):
+	if l[i] == u:
+		ui.append(i)
+for i in range(len(l)):
+	if l[i] == v:
+		vi.append(i)
 for i in ui:
 	for j in vi:
 		s = i - j
